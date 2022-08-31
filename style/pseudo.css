@@ -1,0 +1,50 @@
+.elemento {
+    width: 30%;
+    height: 40%;
+
+    font-size: 20px;
+    color: black;
+    background-color: bisque;
+}
+
+.elemento:not(:first-of-type) {
+    color: fuchsia;
+}
+
+
+/* .elemento:first-of-type {
+    font-size: 30px;
+}
+
+.elemento:nth-of-type(3) {
+    font-weight: bold;
+}
+
+.elemento:last-of-type {
+    font-size: 10px;
+} */
+
+.elemento:nth-of-type(odd) {
+    background-color: burlywood;
+}
+
+.elemento:hover {
+    background-color: blueviolet;
+    transition: .2s;
+}
+
+
+.container p:first-child {
+    background-color: aqua;
+}
+
+.container p:last-child {
+    background-color: blue;
+    color: white;
+}
+
+
+.container p:nth-child(3) {
+    background-color: aquamarine;
+}
+

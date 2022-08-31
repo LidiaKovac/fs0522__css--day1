@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  margin: 0;
+}
+/* 
+vw => viewport width
+vh => viewport height
+em => element measurement
+rem => relative element measurement
+px => pixel
+*/
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: cyan;
+}
+.italic {
+  font-style: italic;
+  background-color: yellow;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-shadow: 5px 5px 200px rgb(0 0 0);
+}
+
+div,p,h1{
+    /* tutti i <p> E tutti i <div> */
+}
+
+div h2 {
+  /* TUTTI i <h2> DENTRO a TUTTI i <div> */
+}
+
+header > * {
+    /* TUTTI I FIGLI DI header */
+}
+
+div > p {
+  /* SOLO figli di tipo <p>, DIRETTI*/
+}
+div + p {
+  /* il <p> SUCCESSIVO al <div> */
+}
+
+h2 ~ p {
+    /* <p> preceduti da <h2> */
+}
+
+
+
+
+.rientro-20 {
+  text-indent: 20px;
+}
+.card {
+  /* text-align: center; */
+  display: inline-block;
+  margin: 2px;
+
+  width: 30%;
+  /* width: 30em; */
+  background-color: azure;
+  height: 40%;
+
+  /* font-size: 2em; */
+  font-size: 22px;
+
+  /* font-family: 'Comic Sans', Arial; */
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: bold;
+  /* line-height: 20px; */
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}

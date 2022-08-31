@@ -1,13 +1,23 @@
+/* UTILITY */
+
+.text-black {
+    color: black;
+}
+
+.text-chiaro {
+    color: white;
+}
+
 /* HEADER */
 
 div { 
     background-color: red;
-    width: 100px; 
-    height: 100px;
+    width: 5000px; 
+    height: 2px;
 }
 .paperino {
     width: 22000px;
-    color: yellow
+    color: grey;
 }
 
 #pippo { /* elemento con id='pippo' */
@@ -16,7 +26,9 @@ div {
 }
 
 .card__titolo { /* TUTTI gli elementi con classe "card__titolo" */
-    background-color: darkcyan;
+    /* background-color: #97deff; */
+    background-color: rgb(255 0 255 / 50%);
+    border: 1px black solid;
     color: beige;
     width: 500px;
     height: 200px;
