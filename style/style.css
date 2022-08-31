@@ -1,0 +1,46 @@
+/* HEADER */
+
+div { 
+    background-color: red;
+    width: 100px; 
+    height: 100px;
+}
+.paperino {
+    width: 22000px;
+    color: yellow
+}
+
+#pippo { /* elemento con id='pippo' */
+    width: 200px;
+    height: 200px;
+}
+
+.card__titolo { /* TUTTI gli elementi con classe "card__titolo" */
+    background-color: darkcyan;
+    color: beige;
+    width: 500px;
+    height: 200px;
+}
+
+/* .card__titolo--rosa {
+    background-color: pink;
+    color: beige;
+    width: 500px;
+    height: 100px;
+} */
+
+.card--rosa {
+    background-color: pink;
+}
+
+/* div {
+    background-color: blue;
+} */
+
+
+/* MAIN */
+
+
+/* FOOTER */
+
+
